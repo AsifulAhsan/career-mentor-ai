@@ -14,7 +14,7 @@ export default function AdmissionsPage() {
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-orange-500 mb-4">
             Admission Hub
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -28,7 +28,7 @@ export default function AdmissionsPage() {
             onClick={() => setActiveTab('search')}
             className={`px-6 py-3 rounded-lg font-semibold transition-all inline-flex items-center gap-2 ${
               activeTab === 'search'
-                ? 'bg-primary-600 text-white shadow-lg'
+                ? 'bg-[#f97316] text-white shadow-lg'
                 : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
             }`}
           >
@@ -39,7 +39,7 @@ export default function AdmissionsPage() {
             onClick={() => setActiveTab('compare')}
             className={`px-6 py-3 rounded-lg font-semibold transition-all inline-flex items-center gap-2 ${
               activeTab === 'compare'
-                ? 'bg-primary-600 text-white shadow-lg'
+                ? 'bg-[#f97316] text-white shadow-lg'
                 : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
             }`}
           >
@@ -50,7 +50,7 @@ export default function AdmissionsPage() {
             onClick={() => setActiveTab('suggestions')}
             className={`px-6 py-3 rounded-lg font-semibold transition-all inline-flex items-center gap-2 ${
               activeTab === 'suggestions'
-                ? 'bg-primary-600 text-white shadow-lg'
+                ? 'bg-[#f97316] text-white shadow-lg'
                 : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
             }`}
           >

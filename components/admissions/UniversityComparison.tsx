@@ -39,7 +39,7 @@ export default function UniversityComparison({
         {selectedUniversities.length < 3 && (
           <button
             onClick={() => setShowSearch(!showSearch)}
-            className="btn-primary inline-flex items-center gap-2"
+            className="btn-primary inline-flex items-center gap-2 red"
           >
             <Search className="w-5 h-5" />
             Add University

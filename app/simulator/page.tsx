@@ -164,7 +164,7 @@ Make it realistic, detailed, and informative. Return ONLY valid JSON, no markdow
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-orange-500 mb-4">
             AI Career Simulator
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">

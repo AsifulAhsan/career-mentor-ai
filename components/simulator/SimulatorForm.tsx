@@ -61,7 +61,7 @@ export default function SimulatorForm({ onSubmit }: { onSubmit: (career: string)
         </div>
 
         <div className="relative">
-          <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+          <Search className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
           <input
             type="text"
             value={customCareer}
@@ -69,7 +69,7 @@ export default function SimulatorForm({ onSubmit }: { onSubmit: (career: string)
               setCustomCareer(e.target.value)
               setCareer('')
             }}
-            placeholder="Or type a custom career..."
+            placeholder="Enter a custom career..."
             className="input-field pl-12"
           />
         </div>

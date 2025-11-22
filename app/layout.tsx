@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navigation />
-        <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+        <main className="min-h-screen bg-[#fff7ed] from-blue-50 via-white to-purple-50">
           {children}
         </main>
       </body>
