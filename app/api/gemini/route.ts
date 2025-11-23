@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { GoogleGenerativeAI } from '@google/generative-ai'
 
-const GEMINI_API_KEY = 'AIzaSyDMmN0U--G7VsREvfh4kSF0mpAupHsXrZM'
+const GEMINI_API_KEY = 'AIzaSyBjs51lpLT_LqafRWB7tCSsst_Ux79yy0k'
 
 export async function POST(request: NextRequest) {
   try {
